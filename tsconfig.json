@@ -1,0 +1,46 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es2017", "dom"],
+    "allowJs": true,
+    "jsx": "react-native",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": [
+      "react",
+      "react-native",
+      "react-native-vector-icons",
+      "@react-native-community/datetimepicker",
+      "@tanstack/react-query",
+      "react-native-image-picker",
+      "@react-navigation/stack"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "index.d.ts",
+    ".eslintrc.js",
+    "jest.setup.js",
+    "jest.config.js",
+    "babel.config.js",
+    "index.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}

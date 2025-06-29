@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/OldLondon.ttf",
+      "sha1": "27e84c8b41eea278e26b35ee1d34093137d50342"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "cb726212d5d525021752a1d8470a0fb593e0c49e"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "a9e9bafe64666f4595051a0e895b47a5fa39e67e"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "0da2d17e738f46d2a09e6fb7969da451719a9820"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "ac6d71b4d5fdd2b3dabc9a06ff6c001e4251da0b"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "179f97ec0275f09603a8db94d4380eb584d81cd5"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "cb726212d5d525021752a1d8470a0fb593e0c49e"
+    }
+  ]
+}
